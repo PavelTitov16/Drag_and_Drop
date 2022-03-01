@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 5rem;
+    background: #423550;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.caption {
+    width: 150px;
+    box-shadow: 4px 4px 9px rgba(230, 140, 180, 0.42);
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    color: #EAF0F5;
+    text-align: center;
+    background: #D0D6D3;
+}
+.object {
+    width: 150px;
+    height: 70px;
+    border: 1px solid #EAF0F5;
+    box-shadow: 4px 4px 9px rgba(230, 140, 180, 0.42);
+    border-radius: 20px;
+    background: #D1C9DA;
+    padding: 0.8rem 1rem;
+    color: #808080;
+    text-align: center;
+    cursor: grab;
+}
+.object:active {
+    cursor: grabbing;
+}
+.placeholder {
+    width: 150px;
+    height: 70px;
+}
+.start {
+    background: linear-gradient(50deg, #F20F7D 0%, #F2870F 100% );
+}
+.progress {
+    background: linear-gradient(65deg, #F2870F 0%, #FFCF00 100% );
+}
+.done {
+    background: linear-gradient(65deg, #FFCF00 0%, #0EB927 100% );
+}
+
+.hold {
+    border: 3px solid #9923CF;
+    background: #26E7E3;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    border-top: 3px solid #F2870F;
+}
