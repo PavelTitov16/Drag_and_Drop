@@ -9,7 +9,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding-top: 5rem;
-    background: #D0D6D3;
+    background: #423550;
     display: flex;
     justify-content: center;
 }
@@ -27,6 +27,7 @@ body {
     padding: 0.8rem 1rem;
     color: #EAF0F5;
     text-align: center;
+    background: #D0D6D3;
 }
 .object {
     width: 150px;
@@ -34,7 +35,7 @@ body {
     border: 1px solid #EAF0F5;
     box-shadow: 4px 4px 9px rgba(230, 140, 180, 0.42);
     border-radius: 20px;
-    background: #A9ABAA;
+    background: #D1C9DA;
     padding: 0.8rem 1rem;
     color: #808080;
     text-align: center;
@@ -55,4 +56,16 @@ body {
 }
 .done {
     background: linear-gradient(65deg, #FFCF00 0%, #0EB927 100% );
+}
+
+.hold {
+    border: 5px solid #F20F7D;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    border-top: 3px solid blueviolet;
 }
