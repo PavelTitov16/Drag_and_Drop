@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
 
+
 * {
     box-sizing: border-box;
 }
@@ -59,7 +60,8 @@ body {
 }
 
 .hold {
-    border: 5px solid #F20F7D;
+    border: 3px solid #9923CF;
+    background: #26E7E3;
 }
 
 .hide {
@@ -67,5 +69,5 @@ body {
 }
 
 .hovered {
-    border-top: 3px solid blueviolet;
+    border-top: 3px solid #F2870F;
 }
